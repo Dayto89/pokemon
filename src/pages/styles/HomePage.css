@@ -133,6 +133,12 @@ body, html {
         margin-top: 30px;
     }
 
+    .home__button {
+        margin-top: 10px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
     .home__form {
         flex-direction: column;
         align-items: center;
