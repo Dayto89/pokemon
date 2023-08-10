@@ -62,7 +62,9 @@ const PokedexPage = () => {
             <input className="pokedex__input" placeholder="Nombre de Pokemon" ref={inputSearch} type="text" />
             <button className="pokedex__button">Search</button>
           </form>
-          <SelectType setSelectValue={setSelectValue} />
+          <div className="selectype"
+            <SelectType setSelectValue={setSelectValue} />
+          <div/>
         </div>
       </div>
 
