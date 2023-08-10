@@ -121,6 +121,49 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
+@media (max-width: 768px) {
+
+    .home__img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .home__title {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+
+    .home__form {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .home__input {
+        max-width: 100%;
+    }
+
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .inner-circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .inner-circle-two {
+        width: 30px;
+        height: 30px;
+    }
+
+    .inner-circle-three {
+        width: 20px;
+        height: 20px;
+    }
+}
+
 
 
 
