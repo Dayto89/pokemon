@@ -99,6 +99,15 @@
     font-size: 20px;
 }
 
+.selectype {
+    width: 300px;
+    height: 60px;
+    background: #FFF;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
+    font-size: 20px;
+}
+
+
 @media (max-width: 768px) {
     .pokedex__img {
         width: 80%;
@@ -115,6 +124,10 @@
 
     .pokedex__button{
         width: 71px;
+    }
+
+    .selectype {
+        width: 200px;
     }
 }
 
