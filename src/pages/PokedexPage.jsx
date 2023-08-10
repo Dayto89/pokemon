@@ -64,7 +64,7 @@ const PokedexPage = () => {
           </form>
           <div className="selectype"
             <SelectType setSelectValue={setSelectValue} />
-          <div/>
+        </div>
         </div>
       </div>
 
